@@ -1,0 +1,48 @@
+svg, img {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+}
+
+@keyframes spin {
+  from {
+    transform: rotateZ(0);
+  }
+  to {
+    transform: rotateZ(1turn);
+  }
+}
+
+#pButton {
+  float: left;
+  color: blue;
+  font-size: 20px;
+}
+
+#timeline {
+  width: 90%;
+  height: 3px;
+  margin-top: 22px;
+  margin-left: 10px;
+  float: left;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  background: rgba(255, 126, 126, 0.5);
+}
+
+#pButton {
+  margin-top: 13px;
+  cursor: pointer;
+}
+
+#playhead {
+  width: 12px;
+  height: 12px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  margin-top: -5px;
+  background: green;
+  cursor: pointer;
+}
